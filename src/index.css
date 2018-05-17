@@ -1,0 +1,16 @@
+html, #page { padding:0; margin:0;}
+body { margin:0; padding:0; width:100%; color:#000000; font:normal 16px/2.0em Sans-Serif;} 
+		
+/* Clear both sides to assist with div alignment  */
+.clr { clear:both; padding:0; margin:0; width:100%; font-size:0px; line-height:0px;}
+
+.select-menu-outer {
+  z-index: 1000;
+  }
+
+@media (min-width:576px) {
+    .card-columns {
+      column-count: 4;
+    }
+}
+

@@ -1,0 +1,89 @@
+/* FontAwesome for working BootSnippet :> */
+
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+#team {
+    background: #eee !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #108d6f;
+    border-color: #108d6f;
+    box-shadow: none;
+    outline: none;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #007b5e;
+    border-color: #007b5e;
+}
+
+section {
+    padding: 60px 0;
+}
+
+.section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+.image-flip{    
+    border-radius: .25rem;   
+}
+
+@media (max-width: 575.98px) { 
+    .image-flip{
+        width: 100%;        
+    }
+ }
+
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .image-flip{
+        width: 50%;        
+    }
+ }
+
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .image-flip{
+        width: 33.33%;        
+    }
+ }
+
+
+@media (min-width: 992px)  { 
+    .image-flip{
+        width: 25%;        
+    }
+ }
+
+.onecard{
+    border-radius: .25rem;
+    width: 100%;        
+}
+.mainflip {    
+    transition: 0s; 
+}
+.card {
+    min-height: 312px;
+}
+
+.card .card-title {
+    color: #007b5e !important;
+}
+
+.card .card-body img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.disabledcard {
+    pointer-events: none;
+    opacity: 0.4;
+}
+  
